@@ -1,6 +1,7 @@
 <template>
     <div class="box">
         <h1>这是消息页面</h1>
+        <van-icon name="card" />
     </div>
 </template>
 <script>

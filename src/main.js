@@ -14,7 +14,7 @@ const store=new Vuex.Store({
       state.count++;
     },
     changCount(state,changNum){
-      
+
     }
   },
   getters:{
@@ -26,9 +26,9 @@ const store=new Vuex.Store({
 
 Vue.config.productionTip = false
 
-import { NavBar,Tabbar, TabbarItem, GoodsAction, GoodsActionBigBtn,GoodsActionMiniBtn } from 'vant';
+import { NavBar,Tabbar, TabbarItem, GoodsAction, GoodsActionBigBtn,GoodsActionMiniBtn,Icon } from 'vant';
 Vue.use(NavBar);
-
+Vue.use(Icon);
 Vue.use(Tabbar).use(TabbarItem);
 Vue.use(GoodsAction).use(GoodsActionBigBtn).use(GoodsActionMiniBtn);
 /* eslint-disable no-new */
