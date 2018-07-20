@@ -4,6 +4,7 @@
         <van-icon name="card" />
          <van-icon name="card" />
          <van-icon name="card" />
+         <van-icon name="card" />
     </div>
 </template>
 <script>
